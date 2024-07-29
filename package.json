@@ -1,8 +1,9 @@
 {
   "name": "just-waifu",
   "version": "0.1.0",
+  "description": "Site para navegar entre várias artes de anime",
   "private": true,
-  "author": "Sileniz",
+  "author": "Walisson (Sileniz)",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
