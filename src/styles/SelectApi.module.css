@@ -1,0 +1,37 @@
+.wrapperContent {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--button-tag-color);
+    gap: 10px;
+  }
+  
+  .wrapperInput {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 699px) {
+    .WrapperTags {
+      max-width: 400px;
+      height: 70px;
+      overflow-y: scroll;
+      overflow-x: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 459px) {
+    .WrapperTags {
+      max-width: 80vw;
+      height: 70px;
+    }
+  
+    .textInput {
+      font-size: 0.8em;
+    }
+  }

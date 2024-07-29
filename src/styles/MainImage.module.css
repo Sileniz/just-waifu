@@ -1,0 +1,50 @@
+.mainImage{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 16px;
+    width: 300px;
+    padding: 0px 10px;
+    background-color: var(--container-main-image-bg);
+}
+.mainImageItem{
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+}
+.h1MainImage{
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--linknav-color);
+}
+.divUtilMain{
+    display: flex;
+    justify-content: flex-end;
+}
+.BoxArrowUpRight{
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    top: 0px;
+    cursor: pointer;
+    margin-top: 13px;
+    color: white;
+    position: absolute;
+    transition: var(--transition-hover-text);
+}
+.BoxArrowUpRight:hover{
+    transform: scale(1.4);
+}
+@media (max-width: 640px) {
+.mainImage{
+    width: 80vw;
+    }
+}
+@media (min-width: 640px) and (max-width: 1060px) {
+.mainImage{
+    width: 600px;
+    }
+}

@@ -1,0 +1,37 @@
+.modalContainer {
+    z-index: 1; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+    background-color: rgba(8, 8, 8, 0.9); 
+}
+.wrapperImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+}
+.modalImage {
+    cursor: pointer;
+    z-index: 2;
+    max-width: 85%; 
+    max-height: 90%; 
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: rgb(14, 14, 14);
+}
+.opacityModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(8, 8, 8, 0.442);
+}

@@ -1,0 +1,57 @@
+.AboutContainer{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 700px;
+    font-size: 16px;
+    margin: 0px 20px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 5px 0px red;
+}
+.imageAbout{
+    filter: opacity(50%);
+    transform: rotateZ(20deg);
+    right: -16px;
+    width: 250px;
+    top: -29px;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+    transition: 0.5s;
+}
+.imageAbout:hover{
+    filter: opacity(95%);
+    scale: 1.2;
+}
+.textAbout{
+    z-index: 1;
+    width: 65%;
+    color: white;
+    font-size: 1em;
+}
+@media (max-width: 775px){
+    .AboutContainer{
+        width: 80vw;
+    }
+    .textAbout{
+        font-size: 0.8em;
+    }
+    .imageAbout{
+        width: 200px;
+    }
+}
+@media (max-width: 549px){
+    .AboutContainer{
+        padding: 18px;
+    }
+    .textAbout{
+        width: 100%;
+        font-size: 0.6em;
+    }
+    .imageAbout{
+        display: none;
+    }
+}

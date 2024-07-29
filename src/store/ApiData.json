@@ -1,0 +1,7 @@
+{
+  "Apis": [
+    {"ApiName": "Waifu.pics", "apiURL":"https://api.waifu.pics/sfw/waifu"},
+    {"ApiName": "NekosAPI","apiURL":"https://api.nekosapi.com/v3/images/random?rating=safe"},
+    {"ApiName": "Nekos.BEST", "apiURL":"https://nekos.best/api/v2/neko"}
+  ]
+}

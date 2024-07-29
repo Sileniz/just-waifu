@@ -1,0 +1,55 @@
+.WrapperTags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: var(--wrapper-tags-bg);
+    border-radius: 10px;
+    padding: 15px 10px;
+    max-width: 600px;
+    overflow-x: scroll;
+  }
+  
+  .removeTags {
+    display: none;
+  }
+  
+  .buttonTag {
+    cursor: pointer;
+    color: var(--button-tag-color);
+    background-color: var(--container-main-image-bg);
+    box-shadow: 0px 3px 0px red;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .WrapperTags::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  .WrapperTags::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-bg);
+  }
+  
+  .WrapperTags::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-bg);
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 699px) {
+    .WrapperTags {
+      max-width: 400px;
+      height: 70px;
+      overflow-y: scroll;
+      overflow-x: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 459px) {
+    .WrapperTags {
+      max-width: 80vw;
+      height: 70px;
+    }
+  }
+  

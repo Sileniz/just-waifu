@@ -1,0 +1,25 @@
+.ulNavBar{
+    display: flex;
+    min-width: 10px;
+    justify-content: center;
+    padding: 15px 0px;
+    font-size: 16px;
+    gap: 12px;
+}
+.linkNavBar{
+    color: var(--linknav-color);
+    font-size: 1em;
+    transition: var(--transition-hover-text);
+    
+}
+.linkNavBar:hover{
+    color: var(--linknav-color-hover);
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .linkNavBar{
+        font-size: 1.5em;
+    }
+    .ulNavBar{
+        padding: 25px 0px;
+    }
+}

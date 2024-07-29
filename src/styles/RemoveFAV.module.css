@@ -1,0 +1,26 @@
+.trashIcon {
+    cursor: pointer;
+    color: var(--button-tag-bg);
+  }
+  
+  .textTrash {
+    color: var(--button-tag-color);
+  }
+  
+  .wrapperTrash {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--wrapper-tags-bg);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .confirm {
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: var(--button-tag-bg);
+    color: var(--button-tag-color);
+  }
+  

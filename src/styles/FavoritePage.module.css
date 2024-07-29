@@ -1,0 +1,16 @@
+.MainSection{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.MainHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grayscale{
+    filter: grayscale(100%);
+}

@@ -1,0 +1,17 @@
+.HeartAnimation{
+    z-index: 999;
+    position: absolute;
+    width: 0%;
+    animation: animationHeart 1s ease-in-out;
+}
+@keyframes animationHeart {
+    0% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+    80% {
+        width: 0%;
+    }
+}
