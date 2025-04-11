@@ -6,7 +6,7 @@ export default async function NekosAPI(tag,origin) {
     if(tag != null && origin == "nekosapi"){
         let arr = []
         for(let i = 0; i < 18; i++){
-            const response = await fetch(`https://api.nekosapi.com/v3/images/tags/${tag}/images?rating=safe`, {mode: "cors"});
+            const response = await fetch(`https://api.nekosapi.com/v4/images/tags/${tag}/images?rating=safe`, {mode: "cors"});
         const data = await checkStatus(response);
         const api = apiData.Apis[1].ApiName;
         const { image } = apiResponse(data);
